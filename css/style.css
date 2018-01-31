@@ -1,0 +1,12 @@
+.mobile-menu{
+  margin-top: 5%;
+}
+
+
+/*Queries*/
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .mobile-menu{
+    display: none;
+  }
+}
