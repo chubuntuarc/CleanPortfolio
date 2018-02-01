@@ -7,6 +7,13 @@
 .main-text{
   margin-top: 5%;
 }
+.profile-card{
+  border-radius: 10px;
+  background-color: red;
+  height: 200px;
+  box-shadow: 2px 2px 2px grey;
+  width: 100%;
+}
 
 /*Queries*/
 /* Mobile first queries */
