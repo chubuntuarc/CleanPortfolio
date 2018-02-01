@@ -122,6 +122,15 @@
     margin-bottom: 10px;
     width: 100%;
   }
+  .profile-card p{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .profile-card #mail{
+    color: #2E61BD;
+    margin-left: 180px;
+    margin-top: 90px;
+  }
 }
 
 /* Larger than tablet */
