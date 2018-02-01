@@ -22,6 +22,13 @@
   margin-left: 20px;
   margin-top: 30px;
 }
+.social{
+  margin-left: 45px;
+}
+.social a{
+  color: grey;
+  text-decoration: none;
+}
 
 /*Queries*/
 /* Mobile first queries */
@@ -133,6 +140,14 @@
   }
 }
 
+@media (min-width: 640px){
+  .social{
+    margin-left: -10px;
+    margin-top: 70px;
+    position: absolute;
+  }
+}
+
 /* Larger than tablet */
 @media (min-width: 732px) {
   .main-picture{
@@ -181,6 +196,16 @@
     margin-left: 85px;
     margin-top: 110px;
   }
+  .social{
+    margin-left: -110px;
+    margin-top: 140px;
+    position: absolute;
+  }
+}
+@media (min-width: 812px){
+  .social{
+    margin-left: -125px;
+  }
 }
 /* Larger than desktop */
 @media (min-width: 1000px) {
@@ -203,6 +228,11 @@
     margin-bottom: 10px;
     width: 100%;
   }
+  .social{
+    margin-left: -170px;
+    margin-top: 140px;
+    position: absolute;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -211,5 +241,8 @@
     margin-left: 1000px;
     margin-top: -200px;
     position: fixed;
+  }
+  .social{
+    margin-left: -205px;
   }
 }
