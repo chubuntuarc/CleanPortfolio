@@ -11,6 +11,11 @@
     padding-top: 40px;
     position: absolute;
     text-align: center;
+    z-index: 998;
+}
+.fixed{
+    position: fixed;
+    top: -20px;
 }
 .mobile-menu{
   margin-top: 5%;
@@ -32,6 +37,21 @@
   height: 100px;
   margin-left: 20px;
   margin-top: 30px;
+}
+.section-one{
+    background-color: #F14014;
+    color: #FFF;
+}
+.section-two{
+    background-color: #FFF;
+    color: #1C1C1C;
+}
+.section-three{
+    background-color: #00AA99;
+    color: #1C1C1C;
+}
+.section-three .proyect-picture{
+    border: 1px solid #1C1C1C;
 }
 .social{
   margin-left: 45px;
@@ -68,6 +88,34 @@
     margin-left: 160px;
     margin-top: -30px;
   }
+  .proyect-info{
+      font-size: 13px;
+      margin-bottom: 10px;
+      margin-left: 10%;
+      width: 80%;
+  }
+  .proyect-logo{
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 20%;
+  }
+  .proyect-picture{
+      margin-left: 10%;
+      width: 80%;
+  }
+  .proyects-section{
+      margin-bottom: 20px;
+      margin-top: 150px;
+      position: absolute;
+      width: 100%;
+      z-index: 997;
+  }
+  .proyect-web-icon{
+      color: #1C1C1C;
+      margin-left: 10%;
+      text-decoration: none;
+      width: 80%;
+  }
 }
 
 @media (min-width: 360px) {
@@ -90,6 +138,18 @@
     font-size: 11px;
     margin-left: 180px;
   }
+  .section-one{
+      margin-left: -8%;
+      width: 116%;
+  }
+  .section-two{
+      margin-left: -8%;
+      width: 116%;
+  }
+  .section-three{
+      margin-left: -8%;
+      width: 116%;
+  }
 }
 
 @media (min-width: 412px) {
@@ -111,6 +171,18 @@
   .profile-card #mail{
     font-size: 13px;
     margin-left: 190px;
+  }
+  .section-one{
+      margin-left: 0px;
+      width: 100%;
+  }
+  .section-two{
+      margin-left: 0px;
+      width: 100%;
+  }
+  .section-three{
+      margin-left: 0px;
+      width: 100%;
   }
 }
 
@@ -152,6 +224,13 @@
 }
 
 @media (min-width: 591px){
+    .proyect-logo{
+        width: 70px;
+    }
+    .proyects-section .row{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
     .social{
         margin-left: 10px;
         margin-top: 70px;
@@ -163,6 +242,18 @@
     margin-left: -10px;
     margin-top: 70px;
     position: absolute;
+  }
+  .section-one{
+      margin-left: 0px;
+      width: 100%;
+  }
+  .section-two{
+      margin-left: 0px;
+      width: 100%;
+  }
+  .section-three{
+      margin-left: 0px;
+      width: 100%;
   }
 }
 
@@ -251,6 +342,12 @@
     margin-top: 140px;
     position: absolute;
   }
+  .proyects-section{
+    margin-left: 3%;
+  }
+  .proyects-section .proyect-info{
+      margin-top: 40px;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -259,6 +356,9 @@
     margin-left: 1000px;
     margin-top: -200px;
     position: fixed;
+  }
+  .proyects-section{
+    margin-left: 15%;
   }
   .social{
     margin-left: -205px;
